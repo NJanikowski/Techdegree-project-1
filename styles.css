@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(252, 252, 252);
 }
 a:hover {
   color: #6633ff;
@@ -116,6 +116,34 @@ header .profile-image:hover {
   color:#efefef;
 }
 .paragraph-card:hover {
+border-color:  #13c22a;
+}
+.projects-card{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.296);
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  color:#efefef;
+}
+.projects-card:hover {
+border-color:  #13c22a;
+}
+.contact-card{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 250px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.296);
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  color:#ffffff;
+}
+.contact-card:hover {
 border-color:  #13c22a;
 }
 ul.skills {
